@@ -1,7 +1,7 @@
 try:   #Exception handling for invalid or wrong input
-    x = float(input("firtst number: "))  #first number
+    x = float(input("first number: "))  #first number
     y = float(input("second number: "))  #second number
-except ValueError:     #catch wrong inputerror
+except ValueError:     #catch wrong input error
     print("Please enter a valid number")  #error response
 operation = input("Enter operation (+, -, *, /, **, //): ")  #operation to perform
 if operation not in ['+', '-', '*', '/', '**', '//']:   #check if operation is valid
